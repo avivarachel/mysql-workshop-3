@@ -1,4 +1,4 @@
-mysql> SELECT ElectronicMailcontent
+mysql> SELECT ElectronicMail.content
     -> AS "email_addresses"
     -> FROM ElectronicMail
     -> JOIN Entry ON ElectronicMail.entryId = Entry.id
