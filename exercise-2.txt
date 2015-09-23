@@ -1,0 +1,22 @@
+SOURCE data/import-account.sql
+
+Query OK, 100 rows affected, 6 warnings (0.01 sec)
+Records: 100  Duplicates: 0  Warnings: 6
+
+(...)
+
+SOURCE data/import-addressbook.sql
+
+Query OK, 100 rows affected, 6 warnings (0.01 sec)
+Records: 100  Duplicates: 0  Warnings: 6
+
+(...)
+
+SOURCE data/import-entry.sql
+
+// Here there was an error - "unknown column addressLine1". I REPLACED ALL "addressLine1" with "addressLineOne".
+
+Query OK, 100 rows affected, 6 warnings (0.01 sec)
+Records: 100  Duplicates: 0  Warnings: 6
+
+(...)
