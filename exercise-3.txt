@@ -1,0 +1,84 @@
+mysql> SELECT LOWER(country), count(country) FROM Address GROUP BY country ORDER BY COUNT(*) DESC;                                                
++----------------------------------------------+----------------+
+| LOWER(country)                               | count(country) |
++----------------------------------------------+----------------+
+| mozambique                                   |             18 |
+| saint helena, ascension and tristan da cunha |             16 |
+| canada                                       |             15 |
+| argentina                                    |             15 |
+| lebanon                                      |             15 |
+| wallis and futuna                            |             15 |
+| curaçao                                      |             15 |
+| thailand                                     |             15 |
+| united states minor outlying islands         |             15 |
+| andorra                                      |             15 |
+| congo, the democratic republic of the        |             14 |
+| dominica                                     |             14 |
+| united kingdom (great britain)               |             14 |
+| sri lanka                                    |             14 |
+| ethiopia                                     |             14 |
+| united arab emirates                         |             14 |
+| netherlands                                  |             14 |
+| brazil                                       |             14 |
+| equatorial guinea                            |             13 |
+| switzerland                                  |             13 |
+| tonga                                        |             13 |
+| mayotte                                      |             13 |
+| cocos (keeling) islands                      |             13 |
+| slovakia                                     |             13 |
+| seychelles                                   |             13 |
+| norfolk island                               |             13 |
+| aruba                                        |             13 |
+| venezuela                                    |             13 |
+| lithuania                                    |             13 |
+| cook islands                                 |             13 |
+| french polynesia                             |             13 |
+| liberia                                      |             13 |
+| jordan                                       |             12 |
+| anguilla                                     |             12 |
+| malaysia                                     |             12 |
+| turkey                                       |             12 |
+| syria                                        |             12 |
+| virgin islands, united states                |             12 |
+| saint kitts and nevis                        |             12 |
+| isle of man                                  |             12 |
+| botswana                                     |             12 |
+| guinea                                       |             12 |
+| grenada                                      |             12 |
+| finland                                      |             12 |
+| senegal                                      |             12 |
+| oman                                         |             12 |
+| ireland                                      |             12 |
+| christmas island                             |             12 |
+| kazakhstan                                   |             12 |
+| guinea-bissau                                |             12 |
+| congo (brazzaville)                          |             11 |
+| philippines                                  |             11 |
+| burundi                                      |             11 |
+| mexico                                       |             11 |
+| bouvet island                                |             11 |
+| luxembourg                                   |             11 |
+| kiribati                                     |             11 |
+| san marino                                   |             11 |
+| french southern territories                  |             11 |
+| myanmar                                      |             11 |
+| faroe islands                                |             11 |
+| guernsey                                     |             11 |
+| guatemala                                    |             11 |
+| qatar                                        |             11 |
+| peru                                         |             11 |
+| hong kong                                    |              5 |
+| samoa                                        |              5 |
+| monaco                                       |              5 |
+| montenegro                                   |              5 |
+| haiti                                        |              5 |
+| trinidad and tobago                          |              5 |
+| korea, south                                 |              5 |
+| jamaica                                      |              4 |
+| saudi arabia                                 |              3 |
+| iceland                                      |              3 |
+| saint vincent and the grenadines             |              3 |
+| mauritius                                    |              3 |
+| niger                                        |              2 |
++----------------------------------------------+----------------+
+249 rows in set (0.00 sec)
