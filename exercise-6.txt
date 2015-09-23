@@ -1,0 +1,13 @@
+SELECT Phone.content AS "PhoneNumbers"
+FROM Phone
+JOIN Entry ON Phone.entryId = Entry.id
+WHERE Entry.firstName = "Charlotte" AND Entry.lastName = "Jenkins"
+GROUP BY content HAVING count(*) > 1;
+
++----------------+
+| PhoneNumbers   |
++----------------+
+| (110) 167-3420 |
+| (605) 175-1334 |
++----------------+
+2 rows in set (0.01 sec)
